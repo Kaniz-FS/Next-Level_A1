@@ -21,7 +21,3 @@ const processInput = (input: string| number|boolean): string |number =>
     }
 
 }
-console.log(processInput("  TypeScript  "))
-console.log(processInput(2))
-console.log(processInput(true))
-console.log(processInput(false))

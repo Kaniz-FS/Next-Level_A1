@@ -1,13 +1,13 @@
 Type Alias vs Interface in TypeScript
 
-Introduction: 
+Introduction:
 Type alias and interface both helps to shape the structure of data in there own ways. By using them we can make our code more readable and organized.
 
-Detailed Body:
+Details:
 
-1. Type Alias: It mainly used to define the custom name of any object type/dynamic type in typescript. By using type alias we dont need to define the object in object type repeatedly. For example:
+1. Type Alias: It mainly used to define the custom name of any object type/dynamic type in typescript. By using type alias we dont need to define the object in object type repeatedly. Code example:
 
- type user = { 
+type user = {
 
     name: string;
     age: number;
@@ -36,9 +36,9 @@ const user2: user ={
 };
 
 2. Interface: It mainly used to define the structure of an object. It helps to define which properties should exist in
-an object and what will be there data types. For example:
+   an object and what will be there data types. Code example:
 
-interface user { 
+interface user {
 
     name: string;
     age: number;
@@ -57,4 +57,4 @@ const user1: user = {
 
 };
 
-Conclusion: In short, we can say that the choice of using between type alias and interface completely depends on preferences of our coding. However, Type Alias is  used to define literals, union, tuples and primitives. On the other hand, Interface is mainly used to define the structure of Objects.
+Conclusion: In short, we can say that the choice of using between type alias and interface completely depends on preferences of our coding. However, Type Alias is used to define literals, union, tuples and primitives. On the other hand, Interface is mainly used to define the structure of Objects.

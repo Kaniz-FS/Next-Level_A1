@@ -18,17 +18,14 @@ Code Example:
 
 class Employee {
 constructor(
-
         public name: string,
         private _baseSalary: number,
         protected age: number,
         readonly employeeId: number
     ) {}
-
     get baseSalary(): number {
         return this._baseSalary;
     }
-
     set baseSalary(newSalary: number) {
         if (newSalary < 0) {
             throw new Error("Salary cannot be negative");
@@ -40,7 +37,7 @@ constructor(
 
 class Manager extends Employee {
 
-    showAge() {
+ showAge() {
         console.log(this.age);
     }
 

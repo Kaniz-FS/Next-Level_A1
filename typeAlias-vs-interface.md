@@ -39,7 +39,6 @@ const user2: user ={
    an object and what will be there data types. Code example:
 
 interface user {
-
     name: string;
     age: number;
     isActive : boolean;
@@ -48,7 +47,6 @@ interface user {
 
 };
 const user1: user = {
-
     name: "kaniz",
     age: 24,
     isActive: true,

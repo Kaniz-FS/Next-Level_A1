@@ -17,6 +17,6 @@ Objective: To strengthen TypeScript fundamentals, improve problem-solving skills
 
 BLOG:
 
-1. [Type Alias Vs Interface](typeAliases-vs-interface.md)
+1. [Type Alias Vs Interface](typeAlias-vs-interface.md)
 
 2. [Access Modifiers in OOP](accessModifiers-in-OOP.md)

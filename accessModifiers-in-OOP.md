@@ -18,6 +18,7 @@ Code Example:
 
 class Employee {
 constructor(
+
         public name: string,
         private _baseSalary: number,
         protected age: number,
@@ -38,6 +39,7 @@ constructor(
 class Manager extends Employee {
 
  showAge() {
+ 
         console.log(this.age);
     }
 

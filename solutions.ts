@@ -26,3 +26,24 @@ const formatCoordinate = (location: readonly [latitude: number, longitude: numbe
 {
   return "Location" + ":" + " " + location[2] + " " + "(" + location[0] + "," + " " + location[1] + ")";
 }
+
+const  concatenateArrays = <T>(...arrays: T[][]): T[] =>{
+       return arrays.flat();
+}
+
+
+interface Course{
+    title: string;
+    students: number;
+    isPublished: boolean;
+}
+const getPopularCourses =(
+    courses: Course[],
+    minStudents: number
+): Course[] =>{
+    return courses.filter((course)=>{
+        return course.isPublished ===true && course.students>=minStudents;
+    })
+
+}
+
